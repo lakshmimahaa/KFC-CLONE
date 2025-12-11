@@ -121,8 +121,9 @@
   }
 
   .signin-logo {
-    /* margin-left: 10px; */
+    margin-left: 13px;
     gap: 6px;
+    /* border: 3px solid blue; */
   }
 
   .signin-logo a {
