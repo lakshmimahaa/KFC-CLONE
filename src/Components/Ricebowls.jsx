@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from 'react';
-import { AppContext } from '../Context/AppCzzontext';
+import { AppContext } from '../Context/AppContext';
 import axios from 'axios';
 import '../Styles/Menucommon.css';   
 
