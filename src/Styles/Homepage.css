@@ -201,6 +201,7 @@ a {
   transition: 0.2s;
 }
 
+
 .price-name {
   font-size: 14px;
   color: #777;
@@ -297,6 +298,9 @@ a {
     width: 50% ;
     padding: 12px 0 ;
     margin-bottom: 10px;
+  }
+  .image-name{
+     font-size: 10px;
   }
 }
 
