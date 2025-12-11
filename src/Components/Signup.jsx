@@ -11,7 +11,7 @@ function Signup() {
   const [userNumber, setUserNumber] = useState("");
   const [error, setError] = useState("");
 
-  const usersurl = "https://kfcjson-1.onrender.com";
+  const usersurl = "https://kfcjson-1.onrender.com/users";
   const navigate = useNavigate();
 
   const handleSignup = () => {

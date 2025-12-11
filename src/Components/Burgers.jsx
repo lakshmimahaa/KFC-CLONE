@@ -5,7 +5,7 @@ import '../Styles/Menucommon.css';
 
 function Burgers() {
   const [burgers, setBurgers] = useState([]);
-  const burgersurl = "https://kfcjson-1.onrender.com";
+  const burgersurl = "https://kfcjson-1.onrender.com/burgers";
   const {addToCart} =useContext(AppContext)
 
   useEffect(() => {

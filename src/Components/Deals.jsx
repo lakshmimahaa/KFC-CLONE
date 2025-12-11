@@ -6,7 +6,7 @@ import { AppContext } from '../Context/AppContext';
 
 function Deals() {
    const[deals,setDeals]=useState([]);
-   const dealsurl="https://kfcjson-1.onrender.com"
+   const dealsurl="https://kfcjson-1.onrender.com/deals"
    const {addToCart} = useContext(AppContext)
 
     useEffect(() => {

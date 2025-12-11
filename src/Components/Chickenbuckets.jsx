@@ -5,7 +5,7 @@ import '../Styles/Menucommon.css';
 
 function Chickenbuckets() {
   const [chickenBuckets, setChickenBuckets] = useState([]);
-  const chickenbucketsurl = "https://kfcjson-1.onrender.com";
+  const chickenbucketsurl = "https://kfcjson-1.onrender.com/chickenbuckets";
   const {addToCart} =useContext(AppContext)
 
   useEffect(() => {

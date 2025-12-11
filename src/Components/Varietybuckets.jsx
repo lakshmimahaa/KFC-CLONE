@@ -5,7 +5,7 @@ import '../Styles/Menucommon.css';
 
 function Varietybuckets() {
   const [varietybuckets, setVarietyBuckets] = useState([]);
-  const varietybucketsurl = "https://kfcjson-1.onrender.com";
+  const varietybucketsurl = "https://kfcjson-1.onrender.com/varietybuckets";
   const {addToCart} =useContext(AppContext)
 
   useEffect(() => {

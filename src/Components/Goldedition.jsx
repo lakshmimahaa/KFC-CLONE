@@ -5,7 +5,7 @@ import { AppContext } from '../Context/AppContext';
 
 function Goldedition() {
   const [goldEdition, setGoldEdition] = useState([]);
-  const goldeditionurl = "https://kfcjson-1.onrender.com";
+  const goldeditionurl = "https://kfcjson-1.onrender.com/goldedition";
   const {addToCart} =useContext(AppContext)
 
   useEffect(() => {

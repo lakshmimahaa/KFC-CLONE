@@ -9,9 +9,9 @@ function Homepage() {
   const [homepage1, setHomepage1] = useState([]);
   const [homepage2, setHomepage2] = useState([]);
 
-  const homepageurl = "https://kfcjson-1.onrender.com";
-  const homepageurl1 = "https://kfcjson-1.onrender.com";
-  const homepageurl2 = "https://kfcjson-1.onrender.com";
+  const homepageurl = "https://kfcjson-1.onrender.com/homepage";
+  const homepageurl1 = "https://kfcjson-1.onrender.com/homepage1";
+  const homepageurl2 = "https://kfcjson-1.onrender.com/homepage2";
 
   const navigate=useNavigate('')
 

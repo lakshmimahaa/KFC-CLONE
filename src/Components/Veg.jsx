@@ -5,7 +5,7 @@ import '../Styles/Menucommon.css';
 
 function Veg() {
   const [veg, setVeg] = useState([]);
-  const vegurl = "https://kfcjson-1.onrender.com";
+  const vegurl = "https://kfcjson-1.onrender.com/veg";
   const {addToCart} =useContext(AppContext)
 
   useEffect(() => {

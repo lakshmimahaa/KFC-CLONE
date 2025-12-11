@@ -13,7 +13,7 @@ function Signin() {
   const location = useLocation();
   const fromCart = location.state?.fromCart || false;
 
-  const usersurl = "https://kfcjson-1.onrender.com";
+  const usersurl = "https://kfcjson-1.onrender.com/users";
 
   const handleSignin = () => {
     if (phoneNumber.length !== 10) {

@@ -5,7 +5,7 @@ import '../Styles/Menucommon.css';
 
 function Ricebowls() {
   const [riceBowls, setRiceBowls] = useState([]);
-  const ricebowlsurl = "https://kfcjson-1.onrender.com";
+  const ricebowlsurl = "https://kfcjson-1.onrender.com/ricebowls";
   const {addToCart} =useContext(AppContext)
 
   useEffect(() => {

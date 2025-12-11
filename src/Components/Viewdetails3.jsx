@@ -5,7 +5,7 @@ import { AppContext } from '../Context/AppContext';
 
 function Viewdetails3() {
   const [detail3, setDetail3] = useState([]);
-  const viewdetails3url = "https://kfcjson-1.onrender.com";
+  const viewdetails3url = "https://kfcjson-1.onrender.com/viewdetails3";
   const {handleClose} = useContext(AppContext)
 
   useEffect(() => {
