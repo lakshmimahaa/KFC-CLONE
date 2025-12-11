@@ -1,0 +1,98 @@
+.footer-container {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-section1 {
+  display: flex;
+  justify-content: center;
+}
+
+.kfclogo-img {
+  width: 120px;
+  height: auto;
+  filter: drop-shadow(0px 0px 2px #222);
+}
+
+.footer-section2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.footer-section2 h5 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.footer-section2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+}
+
+.footer-section2 a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.footer-section2 a:hover {
+  color: #ffffff;
+}
+
+.footer-section3 {
+  display: flex;
+  justify-content: center;     
+  align-items: center;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-section3 p {
+  font-size: 12px;
+  color: #b5b5b5;
+}
+
+.footer-section3 i {
+  font-size: 10px; 
+  cursor: pointer;
+  color: #bdbdbd;
+  transition: 0.25s ease;
+}
+
+.footer-section3 i:hover {
+  color: #ffffff;
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 30px 25px;
+  }
+
+  .footer-section2 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-section3 {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}

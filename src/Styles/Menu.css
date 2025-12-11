@@ -1,0 +1,142 @@
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.menu-popup {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.menuclose-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: -2%;
+  margin-right: -3%;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40%;
+}
+
+.menu-list li {
+  margin: 10px 0;
+  text-align: left;    
+  margin-top: 10%; 
+}
+
+.menu-list li a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-popup {
+  background: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-popup {
+  background: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin: 10px 0;
+  text-align: left;        
+}
+
+.menu-list li a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin: 10px 0;
+  text-align: left;        
+}
+
+.menu-list li a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  background: #f8f8f8;
+}
+
+.menu-list li a {
+  padding: 8px 15px;
+  border-radius: 8px;
+  
+}
+
+.menu-list li a:hover {
+  background: #ffd700;
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}

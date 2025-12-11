@@ -1,0 +1,114 @@
+.order-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.order-card {
+  width: 85%;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 40px 35px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.order-title {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.order-title::after {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 3px;
+  background: #000;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.order-subtitle {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.order-buttons {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.order-btn {
+  width: 80%;
+  padding: 15px 20px;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-left: 11%;
+}
+
+.order-btn:hover {
+  border-color: black;
+}
+
+@media (max-width: 480px) {
+  .order-card {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .order-title {
+    font-size: 22px;
+  }
+
+  .order-title::after {
+    width: 60%;
+  }
+
+  .order-subtitle {
+    font-size: 15px;
+  }
+
+  .order-btn {
+    font-size: 15px;
+    padding: 13px;
+  }
+}
